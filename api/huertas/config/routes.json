@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/huertas",
+      "handler": "huertas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/huertas/count",
+      "handler": "huertas.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/huertas/:id",
+      "handler": "huertas.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/huertas",
+      "handler": "huertas.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/huertas/:id",
+      "handler": "huertas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/huertas/:id",
+      "handler": "huertas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
