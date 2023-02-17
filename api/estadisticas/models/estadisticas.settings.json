@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "estadisticas",
+  "info": {
+    "name": "Estadisticas"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "created": {
+      "type": "date"
+    },
+    "peso": {
+      "type": "float"
+    },
+    "metrica": {
+      "type": "enumeration",
+      "enum": [
+        "kg",
+        "libra"
+      ]
+    }
+  }
+}

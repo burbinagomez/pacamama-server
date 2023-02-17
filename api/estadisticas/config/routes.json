@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/estadisticas",
+      "handler": "estadisticas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/estadisticas/count",
+      "handler": "estadisticas.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/estadisticas/:id",
+      "handler": "estadisticas.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/estadisticas",
+      "handler": "estadisticas.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/estadisticas/:id",
+      "handler": "estadisticas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/estadisticas/:id",
+      "handler": "estadisticas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
